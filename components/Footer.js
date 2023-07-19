@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-4 gap-y-10 space-y-10 px-32 py-14 bg-gray-100 text-gray-600">
-      <div className="space-y-4 text-xs text-gray-800">
+      <div className="mt-10 space-y-4 text-xs text-gray-800">
         <h5 className="font-bold">ABOUT</h5>
         <p>How Airbnb Works</p>
         <p>News Room</p>
@@ -14,7 +14,7 @@ const Footer = () => {
 
       <div className="space-y-4 text-xs text-gray-800 mt-0">
         <h5 className="font-bold">COMMUNITY</h5>
-        <p className="mt-3">How Airbnb Works</p>
+        <p>How Airbnb Works</p>
         <p>Accessibility</p>
         <p>This is not real</p>
         <p>Awesome</p>
@@ -32,7 +32,7 @@ const Footer = () => {
 
       <div className="space-y-4 text-xs text-gray-800">
         <h5 className="font-bold">SUPPORT</h5>
-        <p>Help Cenre</p>
+        <p>Help Centre</p>
         <p>Trust & Safety</p>
         <p>Contact Us</p>
         <p>Guestlyy</p>
